@@ -7,6 +7,12 @@
   <title>All Terms</title>
 </head>
 <body>
-  
+  <h1>All terms</h1>
+  <a href="/">Pokemon Home</a>
+  <a href="/terms/new">Create a New Term</a>
+  {{#terms}}
+  <h2><a href="/terms/{{id}}">{{name}}</a></h2>
+  <p>{{definition}}</p>
+  {{/terms}}
 </body>
 </html>

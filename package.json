@@ -1,7 +1,7 @@
 {
   "name": "lab-w05d03-crud-dictionary",
   "version": "1.0.0",
-  "description": "",
+  "description": "![](https://media.giphy.com/media/oFPiPgqwof4Pe/giphy.gif)",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -15,5 +15,13 @@
     "morgan": "^1.9.1",
     "mustache-express": "^1.2.8",
     "pg-promise": "^8.5.3"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/morojAlh/lab-w05d03-express-dictionary.git"
+  },
+  "bugs": {
+    "url": "https://github.com/morojAlh/lab-w05d03-express-dictionary/issues"
+  },
+  "homepage": "https://github.com/morojAlh/lab-w05d03-express-dictionary#readme"
 }

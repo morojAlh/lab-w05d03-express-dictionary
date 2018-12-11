@@ -7,6 +7,21 @@
   <title>New Term</title>
 </head>
 <body>
-  
+  <h1>New Term</h1>
+  <a href="/">Home</a>
+  <a href="/terms">All terms</a>
+
+  <form action="/terms" method="POST">
+    <label for="name">
+      Name: <input type="text" name="name" id="name">
+    </label>
+    <label for="definition">
+      Definition: 
+      <textarea name="definition" id="definition">
+          
+        </textarea>
+    </label>
+    <button type="submit">Add</button>
+  </form>
 </body>
 </html>
